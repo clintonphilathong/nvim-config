@@ -1,4 +1,6 @@
-vim.opt.background = "dark"
+require'lspconfig'.pyright.setup{}
+vim.o.termguicolors = true
+vim.g.background = "dark"
 vim.cmd([[colorscheme gruvbox]])
   vim.o.number = true
   vim.o.scrolloff = 8
@@ -29,6 +31,8 @@ vim.cmd([[colorscheme gruvbox]])
     use {
         'nvim-treesitter/nvim-treesitter',
         run = ':TSUpdate'
-    }
+    } 
+    use 'neovim/nvim-lspconfig'
  end)
  
+
