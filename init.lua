@@ -1,3 +1,6 @@
+require'lspconfig'.clangd.setup{}
+require'lspconfig'.dockerls.setup{}
+require'lspconfig'.tsserver.setup{}
 require'lspconfig'.pyright.setup{}
 vim.o.termguicolors = true
 vim.g.background = "dark"
