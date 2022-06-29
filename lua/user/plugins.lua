@@ -11,6 +11,7 @@
         run = ':TSUpdate'
     } 
     use 'neovim/nvim-lspconfig'
+    use "akinsho/toggleterm.nvim"
 
     -- cmp plugins
     use "hrsh7th/cmp-buffer"
