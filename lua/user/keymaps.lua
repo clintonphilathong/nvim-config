@@ -19,4 +19,5 @@ vim.cmd([[colorscheme gruvbox]])
  keymap('n', '<Space><CR>', ': so ~/.config/nvim/init.lua', opts)
  keymap('n', '<c-f>', '<Esc>: Telescope find_files<CR>', opts)
  keymap('i', '<c-f>', '<Esc>: Telescope find_files<CR>', opts)
+ keymap('n', '<c-b>', ': NvimTreeToggle<CR>', opts)
 

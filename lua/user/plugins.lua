@@ -12,6 +12,8 @@
     } 
     use 'neovim/nvim-lspconfig'
     use "akinsho/toggleterm.nvim"
+    use "kyazdani42/nvim-tree.lua"
+    use "kyazdani42/nvim-web-devicons"
 
     -- cmp plugins
     use "hrsh7th/cmp-buffer"
