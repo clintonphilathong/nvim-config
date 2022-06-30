@@ -20,6 +20,7 @@
     use "hrsh7th/cmp-nvim-lua"
     use "hrsh7th/cmp-nvim-lsp"
     use "L3MON4D3/LuaSnip"
+    use "windwp/nvim-autopairs"
     use "hrsh7th/nvim-cmp"
     use "saadparwaiz1/cmp_luasnip"
     use "rafamadriz/friendly-snippets"
