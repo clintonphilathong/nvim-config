@@ -14,6 +14,11 @@
     use "akinsho/toggleterm.nvim"
     use "kyazdani42/nvim-tree.lua"
     use "kyazdani42/nvim-web-devicons"
+    use "jose-elias-alvarez/null-ls.nvim" 
+    use {
+  'nvim-lualine/lualine.nvim',
+  requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+}
 
     -- cmp plugins
     use "hrsh7th/cmp-buffer"

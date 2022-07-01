@@ -1,3 +1,4 @@
+--vim.g.mapleader = "<Space>"
 vim.o.termguicolors = true
 vim.g.background = "dark"
 vim.opt.clipboard = 'unnamedplus'
@@ -15,9 +16,11 @@ vim.cmd([[colorscheme gruvbox]])
  keymap('n', '<c-s>', ':w<CR>', {})
  keymap('i', '<c-s>', '<Esc>:w<CR>', {})
  local opts = { noremap = true }
- keymap('i', '<c-j>', '<Esc>', opts)
+ --keymap('n', '<Space><f>',': lua vim.lsp.buf.formatting_sync()', opts)
+ keymap('i', '<c-u>', '<Esc>', opts)
  keymap('n', '<Space><CR>', ': so ~/.config/nvim/init.lua', opts)
  keymap('n', '<c-f>', '<Esc>: Telescope find_files<CR>', opts)
  keymap('i', '<c-f>', '<Esc>: Telescope find_files<CR>', opts)
  keymap('n', '<c-b>', ': NvimTreeToggle<CR>', opts)
 
+ 
